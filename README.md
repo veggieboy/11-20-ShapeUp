@@ -11,7 +11,7 @@
 Every class should be placed into its own file!  
 
 In the directory "src", you will find five files:
-- ShapeUp.java: **DO NOT** modify this file 
+- ShapeUp.java: Main Program - **DO NOT** modify this file 
 - Point.java: Modify the Point class you created last night
 - Line.java: A Line object represents a line defined by a pair of Points
 - Circle.java: A Circle object represents a circle defined by a center point and a radius
@@ -79,7 +79,7 @@ In the directory "src", you will find five files:
 
 	
 ## Output
-Your output when running *PointMain* should be identical to [output.txt](./output.txt)...
+Your output when running *ShapeUp* should be identical to [output.txt](./output.txt)...
 ```
 p1 is (2, 2)
 p1 distance from origin = 2.8284271247461903
