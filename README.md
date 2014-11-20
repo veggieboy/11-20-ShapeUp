@@ -6,7 +6,7 @@
 - Understand how to represent an object's behavior as instance *methods*
 - Be able to implement a class with *multiple constructors, Accessors and Mutators*
 
-## Assignment
+## Assignment - Due Monday morning 11/24 before class
 
 Every class should be placed into its own file!  
 
