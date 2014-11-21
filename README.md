@@ -42,7 +42,7 @@ In the directory "src", you will find five files:
 	- double radius
 - Constructors:
 	- 1: no parameters, constructs a new Circle object with start & end at (0, 0)
-	- 2: two Point parameters, constructs a new Circle object with Point parameters startPoint, endPoint
+	- 2: two Point parameters, constructs a new Circle object with Point parameters centerPoint, circPoint
 	- 3: one Point parameter & one double parameter, constructs a new Circle object with Point parameter center and radius of second parameter
 - Accessors:
 	- getRadius (double): no parameters, returns the radius of this circle 
