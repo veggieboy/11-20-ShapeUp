@@ -72,7 +72,7 @@ In the directory "src", you will find five files:
 	- diagonal (double): no parameters, returns the diagonal of this Rectangle
 	- perimeter (integer): no parameters, returns the perimeter of this Rectangle
 	- isSquare (boolean): no parameters, returns true if this rectangle is square
-	- toString (String): no parameters, returns a String representation of the rectangle's bottom left and top right points in the form: `[(x1, y1), (x2, y2)]` (HINT: make use of Point's toString() method)
+	- toString (String): no parameters, returns a String representation of the rectangle's bottom left and top right points in the form: `[(x1, y1), (x2, y2)]` (HINT: make use of Point's toString() method and this.getTopRight())
 - Mutators:
 	- translate (void): takes two integer parameters, adds the value of the first parameter to the X value of each end point and adds the value of the second parameter to the Y value of each end point
 	- scale (void): takes two integer  parameter, scales this Rectangle by adding dx to width and dy to height
