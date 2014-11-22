@@ -42,14 +42,14 @@ In the directory "src", you will find five files:
 	- double radius
 - Constructors:
 	- 1: no parameters, constructs a new Circle object with start & end at (0, 0)
-	- 2: two Point parameters, constructs a new Circle object with Point parameters centerPoint, circPoint
+	- 2: two Point parameters, constructs a new Circle object with Point parameters centerPoint, circumferencePoint (HINT: radius is the distance between the two Points - what method can we do this with?)
 	- 3: one Point parameter & one double parameter, constructs a new Circle object with Point parameter center and radius of second parameter
 - Accessors:
 	- getRadius (double): no parameters, returns the radius of this circle 
 	- area (double): no parameters, returns the area of this Circle
 	- circumference (double): no parameters, returns the circumference of this Circle
 	- diameter (double): no parameters, returns the diameter of this Circle
-	- toString (String): no parameters, returns a String representation of this line as [(x, y), radius] (HINT: make use of Point's toString() method)
+	- toString (String): no parameters, returns a String representation of this line as `[(x, y), radius]` (HINT: make use of Point's toString() method)
 - Mutators:
 	- translate (void): takes two integer parameters, adds the value of the first parameter to the X value of each end point and adds the value of the second parameter to the Y value of each end point
 	- changeRadius (void): takes one double parameter, changes the radius of this Circle by adding the value of the parameter to radius
@@ -72,7 +72,7 @@ In the directory "src", you will find five files:
 	- diagonal (double): no parameters, returns the diagonal of this Rectangle
 	- perimeter (integer): no parameters, returns the perimeter of this Rectangle
 	- isSquare (boolean): no parameters, returns true if this rectangle is square
-	- toString (String): no parameters, returns a String representation of this line as [(x, y), radius] (HINT: make use of Point's toString() method)
+	- toString (String): no parameters, returns a String representation of this line as `[(x, y), height, width]` (HINT: make use of Point's toString() method)
 - Mutators:
 	- translate (void): takes two integer parameters, adds the value of the first parameter to the X value of each end point and adds the value of the second parameter to the Y value of each end point
 	- scale (void): takes two integer  parameter, scales this Rectangle by adding dx to width and dy to height
