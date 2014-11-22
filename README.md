@@ -32,7 +32,7 @@ In the directory "src", you will find five files:
 - Accessors:
 	- length (double): no parameters, returns the length of this line (the distance between the start and end Points - HINT: consider using Point's distance() method)
 	- slope (double): no parameters, returns the slope of this line i.e. y1-y2/x1-x2
-	- toString (String): no parameters, returns a String representation of this line as [(x1, y1), (x2, y2)] (HINT: make use of Point's toString() method)
+	- toString (String): no parameters, returns a String representation of this line as `[(x1, y1), (x2, y2)]` (HINT: make use of Point's toString() method)
 - Mutators:
 	- translate (void): takes two integer parameters, adds the value of the first parameter to the X value of each end point and adds the value of the second parameter to the Y value of each end point
 	
